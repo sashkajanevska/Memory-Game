@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="memory-game">
+      <div class="game-header">
+        <div class="game-title">
+          <h2>Memory Game</h2>
+        </div>
+        <div class="game-stats">
+          <div id="timer" class="game-timer">Time:&nbsp;01:30</div>
+          <div id="score" class="game-score">Score:&nbsp;0/12</div>
+        </div>
+        <div class="game-reset">
+          <button id="reset-button">Reset</button>
+        </div>
+      </div>
+      <!-- /.game-header -->
+
+      <div id="start-overlay" class="game-start-overlay active">
+        <h1>Memory Game</h1>
+        <button id="start-button">Start</button>
+      </div>
+      <!-- /.game-start-overlay -->
+
+      <div class="game-body">
+        <div class="cards-wrapper">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <!-- /.cards-wrapper -->
+      </div>
+      <!-- /.game-body -->
+
+      <div id="end-overlay" class="game-end-overlay">
+        <div></div>
+        <button></button>
+      </div>
+      <!-- /.game-end-overlay -->
+    </div>
+    <!-- /.memory-game -->
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
