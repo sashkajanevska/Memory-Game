@@ -132,6 +132,7 @@ body {
 .game-body {
   max-width: 1440px;
   width: 100%;
+  height: 100%;
   display: flex;
   margin: 15px auto;
   position: relative;
@@ -311,6 +312,10 @@ body {
 
   .game-start-overlay button {
     font: 700 20px/54px "Work Sans", sans-serif;
+  }
+
+  .game-body {
+    height: auto;
   }
 
   .card {
