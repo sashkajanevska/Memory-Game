@@ -29,10 +29,6 @@ body {
   overflow: hidden;
 }
 
-.memory-game.start {
-  overflow-y: auto;
-}
-
 .game-header {
   background: linear-gradient(
     to right,
@@ -269,6 +265,10 @@ body {
 }
 
 @media (max-width: 1279px) {
+  .memory-game.start {
+    overflow-y: auto;
+  }
+
   .game-header {
     padding-left: calc(5% - 20px);
     padding-right: calc(5% - 20px);

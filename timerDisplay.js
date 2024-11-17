@@ -29,6 +29,7 @@ export function updateTimer() {
   if (seconds === 0 && minutes === 0) {
     stopTimer();
     cardsWrapper.classList.remove("active");
+    cardsWrapper.closest(".memory-game").classList.remove("start");
 
     messageBox.innerHTML = `Time's up!<br> 
                         <p>Your ${score.innerText}</p>`;
